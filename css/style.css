@@ -1,25 +1,127 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Times New Roman", Times, serif;
+  box-sizing: border-box;
 }
-.container {
-  width: 100%;
-  height: 100%;
-  background: rgb(241, 236, 236);
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #1a1a1d;
+  color: #fff;
 }
-.menu ul {
-  display: inline-flex;
-  margin: 50px;
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #121212;
 }
-.menu ul li {
+
+.logo h1 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
   list-style: none;
-  margin: 0 20px;
-  color: rgb(28, 1, 1);
-  cursor: pointer;
 }
-.logo img {
-  border-radius: 30px;
-  margin-top: -7px;
-  margin-right: 48px;
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ff6600;
+}
+
+.cta-btn {
+  background-color: #ff6600;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #e65c00;
+}
+
+.hero {
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content h2 {
+  font-size: 48px;
+  color: #fff;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+main {
+  padding: 40px;
+}
+
+.reviews,
+.news,
+.store {
+  margin-bottom: 50px;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.review {
+  background-color: #2e2e2e;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.store-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.game-item {
+  background-color: #2e2e2e;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.game-item:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #121212;
+  color: #fff;
+  margin-top: 20px;
 }
