@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-image: url("/blackmyth.jpg");
+  background-image: url("/anh/blackmyth.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -27,7 +27,7 @@ body {
 .form-container input[type="text"],
 .form-container input[type="email"],
 .form-container input[type="password"] {
-  width: calc(100% - 20px);
+  width: 100%;
   padding: 12px;
   margin: 15px 0;
   border: 1px solid #ccc;

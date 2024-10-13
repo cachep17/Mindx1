@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-image: url("/ss_79f2e5e387cf4eb9befa4970b5c234a99a3082e6.1920x1080.jpg");
+  background-image: url("/anh/ss_79f2e5e387cf4eb9befa4970b5c234a99a3082e6.1920x1080.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -27,7 +27,7 @@ body {
 .form-container input[type="text"],
 .form-container input[type="email"],
 .form-container input[type="password"] {
-  width: calc(100% - 20px);
+  width: 100%;
   padding: 12px;
   margin: 15px 0;
   border: 1px solid #ccc;
@@ -38,7 +38,7 @@ body {
 .form-container button {
   width: 100%;
   padding: 12px;
-  background-color: #7469b0;
+  background-color: #a46410;
   color: white;
   border: none;
   border-radius: 5px;
@@ -47,7 +47,7 @@ body {
 }
 
 .form-container button:hover {
-  background-color: #093011;
+  background-color: #d79e0e;
 }
 
 .form-container .form-link {
