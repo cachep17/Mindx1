@@ -130,3 +130,14 @@ footer {
   color: #fff; /* Màu chữ trắng trong footer */
   margin-top: 20px; /* Khoảng cách trên của footer */
 }
+
+.title {
+  display: inline-block;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+.game-item img {
+  height: 180px;
+  width: 100%;
+}
