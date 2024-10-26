@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1a1a1d;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #121212;
+}
+
+header .logo h1 {
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  background-image: url("/anh/thumb\ Black\ Myth\ Wukong.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content {
+  color: white;
+}
+
+.hero-content h2 {
+  font-size: 48px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.cta-btn {
+  background-color: #ff6600;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.game-details {
+  padding: 20px;
+  text-align: center;
+}
+
+.game-details img {
+  max-width: 100%;
+  height: auto;
+}
+
+.purchase-btn {
+  background-color: #ff6600;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #121212;
+}
+
+.updates,
+.comments {
+  padding: 20px;
+  background-color: #2e2e2e;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+.updates h3,
+.comments h3 {
+  margin-bottom: 10px;
+}
+
+.updates ul {
+  list-style-type: none;
+}
+.reviews {
+  margin: 50px 0;
+  color: #fff;
+}
+
+.reviews-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.review {
+  background-color: #2e2e2e;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.review:hover {
+  transform: scale(1.05);
+}
+
+.review h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.reviewer {
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.rating {
+  margin-bottom: 10px;
+}
+
+.review-text {
+  margin: 15px 0;
+}
+
+.read-review {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.read-review:hover {
+  text-decoration: underline;
+}
