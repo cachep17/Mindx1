@@ -57,7 +57,7 @@ nav ul li a:hover {
 }
 
 .hero {
-  background-image: url("/anh/_112375697_1331db7a-17c0-4401-8cac-6a2309ff49b6.jpg.webp"); /* Ảnh nền cho phần hero */
+  background-image: url("/anh/_112375697_1331db7a-17c0-4401-8cac-6a2309ff49b6.jpg.webp");
   background-size: cover; /* Ảnh nền bao phủ toàn bộ vùng */
   background-position: center; /* Căn giữa ảnh nền */
   height: 400px; /* Chiều cao của phần hero */
